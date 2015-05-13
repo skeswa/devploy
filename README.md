@@ -71,6 +71,21 @@ $ devploy apps delete
 ```
 Deletes the application that was created in the current directory. Also undeploys the application and removes the git remote from the repository.
 
+## Logs
+```
+$ devploy log
+```
+### Tail Application Log
+```
+$ devploy log tail
+```
+Tails the log, which is output from stdout and stderr of the application which was created in the current directory.
+### Download Application Log
+```
+$ devploy log download
+```
+Donwloads the log, which is output from stdout and stderr of the application which was created in the current directory, to the current directory.
+
 ## Application Domains
 ```
 $ devploy domains
